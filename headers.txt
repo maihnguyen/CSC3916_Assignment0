@@ -1,0 +1,24 @@
+The descriptions for the following header key-value pairs were found on the following website:
+https://httpwg.org/specs/rfc9110.html or mdn web docs: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+
+Request Headers: 
+User-Agent: PostmanRuntime/7.43.0 - the user-agent header field contains information about the user agent originating the request.
+Accept: */* - the accept header field can be used by user agents to specify their preferences regarding response media types
+Postman-Token: ef51e9c0-9ecb-4570-8dd0-21b1237b0e35 - this is an access token used to enable an OAuth client to make calls to an API
+Host: www.googleapis.com - the host header field in a request provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names
+Accept-Encoding: gzip, deflate, br - the accept-encoding header field can be used to indicate preferences regarding the use of content codings.
+Connection: keep-alive - the connection header field allows the sender to list desired control options for the current connection
+
+Response Headers:
+Content-Type: application/json; charset=UTF-8 - the content-type header field indicates the media type of the associated representation
+Vary: Origin - the vary field is a list of request field names, known as selecting header fields, that might have had a role in selecting the representation/content for this response
+Vary: X-Origin - the vary field is a list of request field names, known as selecting header fields, that might have had a role in selecting the representation/content for this response
+Vary: Referer - the vary field is a list of request field names, known as selecting header fields, that might have had a role in selecting the representation/content for this response
+Content-Encoding: gzip - the content-encoding header field indicates what content codings have been applied to the representation
+Date: Tue, 21 Jan 2025 23:34:44 GMT - the date header field represents the date and time at which the message originated
+Server: ESF - the server header field contains information about the software used by the origin server to handle the request
+X-XSS-Protection: 0 - this header was a feature of Internet Explorer, Chrome, and Safari that stopped pages from loading when they detected reflected cross-site scripting (XSS) attacks
+X-Frame-Options: SAMEORIGIN - this header is used to indicate whether a browser should be allowed to render a page in a <frame> <iframe> <embed> or <object>
+X-Content-Type-Options: nosniff - this header indicates that the MIME types advertised in the Content-Type headers should be respected and not changed
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 - this header allows the origin server to identify other services that are also authoritative for that origin
+Transfer-Encoding: chunked - this header specifies the form of encoding used to transfer messages between nodes on the network.
